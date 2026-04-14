@@ -1,7 +1,3 @@
-document.addEventListener("click", () => {
-  const bgm = document.getElementById("bgm");
-  bgm.play().catch(() => {});
-});
 function cekHasil() {
   const nama = document.getElementById("nama").value.toLowerCase().trim();
   const hasil = document.getElementById("hasil");
