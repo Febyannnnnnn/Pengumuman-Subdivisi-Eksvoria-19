@@ -35,9 +35,8 @@ function cekHasil() {
     });
 
     // 🔊 SOUND
-    const audio = document.getElementById("sound");
-audio.currentTime = 0;
-audio.play().catch(() => {});
+    sound.currentTime = 0;
+sound.play().catch(() => {});
 
   } else {
     hasil.innerHTML = `<p>Nama tidak ditemukan 😢</p>`;
