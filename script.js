@@ -3,12 +3,12 @@ function cekHasil() {
   const hasil = document.getElementById("hasil");
 
   const data = {
-    "Alfredo": "Staf Subdivisi Expo",
-    "Mahes": "Staf Subdivisi Teknis",
-    "Annisa": "Staf Subdivisi Talent",
-    "Astrid": "Staf Subdivisi Expo",
-    "Itban": "Staf Subdivisi Talent",
-    "Shafira": "Staf Subdivisi Teknis"
+    "alfredo": "Staf Subdivisi Expo",
+    "mahes": "Staf Subdivisi Teknis",
+    "annisa": "Staf Subdivisi Talent",
+    "astrid": "Staf Subdivisi Expo",
+    "itban": "Staf Subdivisi Talent",
+    "shafira": "Staf Subdivisi Teknis"
   };
 
   if (data[nama]) {
