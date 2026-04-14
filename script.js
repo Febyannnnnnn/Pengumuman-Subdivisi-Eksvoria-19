@@ -1,4 +1,7 @@
-const sound = new Audio("https://cdn.pixabay.com/download/audio/2022/03/15/audio_c8c8a73467.mp3?filename=success-fanfare-trumpets-6185.mp3");
+document.addEventListener("click", () => {
+  const bgm = document.getElementById("bgm");
+  bgm.play().catch(() => {});
+});
 function cekHasil() {
   const nama = document.getElementById("nama").value.toLowerCase().trim();
   const hasil = document.getElementById("hasil");
