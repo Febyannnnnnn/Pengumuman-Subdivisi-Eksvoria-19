@@ -3,12 +3,12 @@ function cekHasil() {
   const hasil = document.getElementById("hasil");
 
   const data = {
-    "alfredo": "Staf Subdivisi Expo",
-    "anaksi": "Staf Subdivisi Teknis",
-    "annisa": "Staf Subdivisi Talent",
-    "fathya": "Staf Subdivisi Expo",
-    "itban": "Staf Subdivisi Talent",
-    "shafira": "Staf Subdivisi Teknis"
+    "Alfredo": "Staf Subdivisi Expo",
+    "Mahes": "Staf Subdivisi Teknis",
+    "Annisa": "Staf Subdivisi Talent",
+    "Astrid": "Staf Subdivisi Expo",
+    "Itban": "Staf Subdivisi Talent",
+    "Shafira": "Staf Subdivisi Teknis"
   };
 
   if (data[nama]) {
@@ -35,7 +35,9 @@ function cekHasil() {
     });
 
     // 🔊 SOUND
-    document.getElementById("sound").play();
+    const audio = document.getElementById("sound");
+audio.currentTime = 0;
+audio.play().catch(() => {});
 
   } else {
     hasil.innerHTML = `<p>Nama tidak ditemukan 😢</p>`;
