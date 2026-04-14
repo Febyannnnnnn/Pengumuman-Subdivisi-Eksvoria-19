@@ -40,8 +40,8 @@ function cekHasil() {
 
     // 🔊 SOUND
 const ding = document.getElementById("ding");
-ding.currentTime = 0;
-ding.play().catch(() => {});
+  ding.currentTime = 0;
+  ding.play().catch(() => {});
 
   } else {
     hasil.innerHTML = `<p>Nama tidak ditemukan 😢</p>`;
