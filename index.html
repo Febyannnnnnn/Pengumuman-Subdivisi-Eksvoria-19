@@ -3,8 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <title>Eksvoria 19</title>
+
+  <!-- CSS -->
   <link rel="stylesheet" href="style.css">
+
+  <!-- FONT (ESTETIK) -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
   <div class="container">
@@ -12,12 +18,21 @@
     <p class="subtitle">Pengumuman Subdivisi Acara</p>
 
     <div class="card">
-<input type="text" id="nama" placeholder="Masukkan nama">
-<button onclick="cekHasil()">Lihat Hasil</button>
+      <input type="text" id="nama" placeholder="Masukkan nama">
+      <button onclick="cekHasil()">Lihat Hasil</button>
 
-<div id="hasil"></div>
+      <div id="hasil"></div>
     </div>
   </div>
-<script src="script.js"></script>
+
+  <!-- SCRIPT UTAMA -->
+  <script src="script.js"></script>
+
+  <!-- CONFETTI -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+  <!-- SOUND -->
+  <audio id="sound" src="https://www.soundjay.com/buttons/sounds/button-3.mp3"></audio>
+
 </body>
 </html>
